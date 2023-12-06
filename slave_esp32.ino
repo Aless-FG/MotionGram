@@ -47,13 +47,8 @@ const char* ssid = "wifissidhere";
 const char* password = "wifipasswordhere";
 
 // Initialize Telegram BOT
-String BOTtoken = "6909474463:AAHutvfAY8nJiSRHJlCohvOSRfYleA56BAw";  // your Bot Token (Get from Botfather)
-
-// Use @myidbot to find out the chat ID of an individual or a group
-// Also note that you need to click "start" on a bot before it can
-// message you
-String CHAT_ID = "128002693"; // ID Ale
-
+String BOTtoken = "XXXXXXXXXX:XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
+String CHAT_ID = "XXXXXXXXXX";
 bool sendPhoto = false;
 
 WiFiClientSecure clientTCP;
