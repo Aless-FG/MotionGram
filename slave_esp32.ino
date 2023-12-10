@@ -208,7 +208,7 @@ String sendPhotoTelegram() {
     clientTCP.println("POST /bot"+BOTtoken+"/sendPhoto HTTP/1.1");
     clientTCP.println("Host: " + String(myDomain));
     clientTCP.println("Content-Length: " + String(totalLen));
-    clientTCP.println("Content-Type: multipart/form-data; boundary=RandomNerdTutorials");
+    clientTCP.println("Content-Type: multipart/form-data;");
     clientTCP.println();
     clientTCP.print(head);
   
